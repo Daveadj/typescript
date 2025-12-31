@@ -1,0 +1,12 @@
+"use strict";
+const counters = {};
+counters["Likes"] = 1;
+counters["Dislikes"] = 2;
+const mm = { Likes: 1, Views: 100, Dislikes: 23 };
+const priceMap = new Map();
+priceMap.set("Apple", 10);
+priceMap.set("Banana", 20);
+priceMap.set("Orange", 30);
+const lm = {};
+lm["xm"] = undefined;
+lm["xt"] = 10;
